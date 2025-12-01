@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Gestion de Contactos</h1>
+
+    <div class="container">
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="txtEmail">Correo electrónico</label>
+                <input type="email" id="txtEmail" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="txtPassword">Contraseña</label>
+                <input type="password" id="txtPassword" name="password" required>
+            </div>
+
+            <button type="submit" id="btnLogin">Iniciar sesión</button>
+
+            <p id="loginError" class="error-message"></p>
+        </form>
+    </div>  
+
+    <script src="app.js"></script>
+</body>
+</html>
